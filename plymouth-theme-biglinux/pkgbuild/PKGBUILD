@@ -10,12 +10,12 @@ depends=('plymouth')
 #conflicts=('')
 #provides=('')
 #replaces=('')
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.11.26
+pkgrel=2343
 arch=('any')
 license=('MIT')
 url="https://github.com/biglinux/$pkgname"
-source=("git+${url}.git")
+source=("git+${url}.git#branch=stable-2024-11-26_19-16")
 md5sums=('SKIP')
 
 # Automatically detect and use the correct install file
